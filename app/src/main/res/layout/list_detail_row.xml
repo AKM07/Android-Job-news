@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></ScrollView>
+    <TextView
+        android:id="@+id/createDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+    />
+    <TextView
+        android:id="@+id/articleTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/createDate"
+        android:textStyle="bold"
+        android:textSize="@dimen/title"
+
+        />
+    <TextView
+        android:id="@+id/department"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/articleTitle"
+        android:textStyle="normal"
+        android:textSize="@dimen/description"
+        />
+    <com.android.volley.toolbox.NetworkImageView
+        android:id="@+id/imageShow"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/articleTitle"
+        />
+
+    <TextView
+        android:id="@+id/articleDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/imageShow"
+        android:textStyle="normal"
+        android:textSize="@dimen/description"
+        android:layout_margin="10dp" />
+    <TextView
+        android:id="@+id/jobExpireDate"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/articleDetail"
+        android:textStyle="bold"
+        android:textSize="@dimen/description"/>
+    <TextView
+        android:id="@+id/companyName"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/jobExpireDate"
+        android:textStyle="normal"
+        android:textSize="@dimen/description"
+        android:layout_marginTop="10dp" />
+    <TextView
+        android:id="@+id/companyDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/companyName"
+        android:textStyle="normal"
+        android:textSize="@dimen/description"/>
+    <TextView
+        android:id="@+id/companyAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/companyDescription"
+        android:textStyle="normal"
+        android:textSize="@dimen/description"/>
+    <TextView
+        android:id="@+id/companyWebsite"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/companyAddress"
+        android:textStyle="normal"
+        android:textSize="@dimen/description"/>
+    <TextView
+        android:id="@+id/companyProvince"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/companyWebsite"
+        android:textStyle="normal"
+        android:textSize="@dimen/description"/>
+
+</LinearLayout>

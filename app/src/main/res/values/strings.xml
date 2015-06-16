@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">BKK JATIM</string>
+    <string name="hello_world">Hello World</string>
+
+    <string name="title_section1">Berita Terbaru</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_search">Pencarian</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="action_profile">Profil Anda</string>
+    <string name="action_settings">Pengaturan</string>
+    <string name="action_logout">Logout</string>
+    <string name="ptr_pull_to_refresh">Pull to refresh</string>
+    <string name="ptr_release_to_refresh">Release to refresh</string>
+    <string name="ptr_refreshing">Refreshing…</string>
+    <string name="ptr_last_updated">Updated: %1$s</string>
+    <string name="search_hint">Cari data</string>
+</resources>

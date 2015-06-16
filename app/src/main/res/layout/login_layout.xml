@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fbutton="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login">
+
+
+    <info.hoang8f.widget.FButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Alumni"
+        android:id="@+id/btn_alumni"
+        style="?android:textAppearanceSmall"
+        android:layout_marginBottom="138dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textStyle="bold"
+        android:textColor="#ffffffff"
+        fbutton:buttonColor="@color/button_dark_custom"
+        fbutton:shadowColor="@color/apptheme_primary_dark"
+        fbutton:shadowEnabled="true"
+        fbutton:shadowHeight="2dp"
+        fbutton:cornerRadius="2dp"/>
+
+    <info.hoang8f.widget.FButton
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Sekolah"
+        android:id="@+id/btn_sekolah"  style="?android:textAppearanceSmall"
+        android:layout_marginTop="55dp"
+        android:layout_marginBottom="8dp"
+        android:layout_alignTop="@+id/btn_alumni"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textStyle="bold"
+        android:textColor="#ffffffff"
+        fbutton:buttonColor="@color/button_dark_custom"
+        fbutton:shadowColor="@color/apptheme_primary_dark"
+        fbutton:shadowEnabled="true"
+        fbutton:shadowHeight="2dp"
+        fbutton:cornerRadius="2dp"/>
+
+    <info.hoang8f.widget.FButton
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Perusahaan"
+        android:id="@+id/btn_perusahaan" style="?android:textAppearanceSmall"
+        android:layout_below="@+id/btn_sekolah"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textStyle="bold"
+        android:textColor="#ffffffff"
+        fbutton:buttonColor="@color/button_dark_custom"
+        fbutton:shadowColor="@color/apptheme_primary_dark"
+        fbutton:shadowEnabled="true"
+        fbutton:shadowHeight="2dp"
+        fbutton:cornerRadius="2dp"/>
+</RelativeLayout>

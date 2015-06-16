@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!--Menampilkan text-->
+    <TextView
+        android:id="@+id/createDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgLogo"
+        />
+    <!--Menampilkan gambar-->
+    <com.android.volley.toolbox.NetworkImageView
+        android:id="@+id/imageShow"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        />
+    <!--Menampilkan text-->
+    <TextView
+        android:id="@+id/articleTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/createDate"
+        android:textStyle="bold"
+        android:textSize="@dimen/title"
+        android:layout_margin="10dp"
+        />
+</LinearLayout>
